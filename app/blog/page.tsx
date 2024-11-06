@@ -5,9 +5,9 @@ import * as Blog from '@/features/blog/components/Index';
 import React from 'react';
 
 const BlogPage = async () => {
-  const posts = await fetch('http://localhost:3000/api/v1/blog/getAllBlogs', {
-    cache: 'no-store',
-  });
+  // const posts = await fetch('http://localhost:3000/api/v1/blog/getAllBlogs', {
+  //   cache: 'no-store',
+  // });
   return (
     <div>
       <Blog.BlogImage />
