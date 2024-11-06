@@ -13,6 +13,9 @@
 │       ├── Header/
 │       ├── Footer/
 │       └── ...
+├── configs/             # 設定ファイル
+│   ├── site.ts          # サイト全体の設定
+│   └── meta.ts
 └── features/             # 機能単位のコンポーネント
     ├── blog/
     │   ├── components/   # ブログ機能特有のコンポーネント

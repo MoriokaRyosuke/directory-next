@@ -7,4 +7,4 @@ export const siteConfig = {
     twitter: "https://twitter.com/example",
     github: "https://github.com/example",
   },
-} as const
+}
